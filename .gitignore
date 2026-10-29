@@ -1,0 +1,28 @@
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django et fichiers locaux
+*.sqlite3
+media/
+staticfiles/
+
+# Secrets et variables d'environnement
+.env
+.env.*
+!.env.example
+
+# Outils et éditeurs
+.idea/
+.vscode/
+
+# Journaux et fichiers système
+*.log
+.DS_Store
+Thumbs.db
